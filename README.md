@@ -7,7 +7,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/Ariaaghakhani](https://github.com/Ariaaghakhani)
 
-- 💬 Ask me about **HTML5, CSS3, JavaScript, Bootstrap, Tailwind, React, Next**
+- 💬 Ask me about **HTML5, CSS3, JavaScript, Bootstrap, Tailwind, Vue, Nuxt, React, Next**
 
 - 📫 How to reach me **contact@dev-aria.com**
 

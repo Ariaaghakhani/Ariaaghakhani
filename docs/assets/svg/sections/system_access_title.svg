@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="100%" height="120" role="img" aria-labelledby="t d">
+  <title id="t">Developer Portal</title>
+  <desc id="d">Section title for the developer portal</desc>
+  <defs>
+    <linearGradient id="grad" x1="0" x2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#42B883"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1000" height="120" rx="20" fill="#0B1020"/>
+  <text x="500" y="52" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="6" fill="#42B883">ARIA // DEV PORTAL</text>
+  <text x="500" y="92" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="900" fill="url(#grad)" filter="url(#glow)">EXPLORE MY WORK</text>
+</svg>

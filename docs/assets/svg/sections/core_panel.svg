@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" role="img" aria-labelledby="t d">
+  <title id="t">Aria Core</title>
+  <desc id="d">Front-end developer core panel covering stack, focus, and what I am exploring</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="100%" stop-color="#111A33"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#42B883" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#42B883"/>
+      <stop offset="70%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-100 0;100 0;-100 0" dur="16s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="14" y="14" width="1172" height="332" rx="18" fill="none" stroke="url(#edge)" stroke-width="2"/>
+  <text x="56" y="64" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="4" fill="#42B883">CORE</text>
+  <text x="56" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="900" fill="#F8FAFC">Front-End Developer // Vue · Nuxt · TypeScript</text>
+  <text x="56" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#94A3B8">4+ years building production web apps, dashboards, e-commerce, and reusable Vue components.</text>
+  <g transform="translate(56 190)">
+    <rect width="340" height="120" rx="16" fill="#111A33" stroke="#42B883" stroke-opacity="0.55"/>
+    <text x="24" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2" fill="#42B883">CORE STACK</text>
+    <text x="24" y="68" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC">Vue 3 · Nuxt · TS · JS</text>
+    <text x="24" y="96" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">Pinia · Tailwind · Nuxt UI</text>
+  </g>
+  <g transform="translate(430 190)">
+    <rect width="340" height="120" rx="16" fill="#111A33" stroke="#38BDF8" stroke-opacity="0.55"/>
+    <text x="24" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2" fill="#38BDF8">FOCUS</text>
+    <text x="24" y="68" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC">UI Systems · Performance</text>
+    <text x="24" y="96" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">RTL-first · SEO · Clean DX</text>
+  </g>
+  <g transform="translate(804 190)">
+    <rect width="340" height="120" rx="16" fill="#111A33" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="24" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2" fill="#A78BFA">ALSO WORKING WITH</text>
+    <text x="24" y="68" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC">React · Next.js · Node</text>
+    <text x="24" y="96" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">Firebase · AI-assisted dev</text>
+  </g>
+</svg>

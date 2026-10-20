@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="100%" role="img" aria-label="Projects navigation panel">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%"><stop offset="0%" stop-color="#111A33"/><stop offset="100%" stop-color="#0B1020"/></radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#42B883"/><stop offset="100%" stop-color="#A78BFA"/></linearGradient>
+  </defs>
+  <rect width="500" height="620" rx="28" fill="url(#bg)" stroke="#26335C"/>
+  <circle cx="250" cy="210" r="92" fill="none" stroke="url(#ring)" stroke-width="3" stroke-dasharray="18 10">
+    <animateTransform attributeName="transform" type="rotate" from="0 250 210" to="360 250 210" dur="28s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="210" r="58" fill="#111A33" stroke="#42B883" stroke-width="2"/>
+  <text x="250" y="205" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900" fill="#F8FAFC">PROJECTS</text>
+  <text x="250" y="230" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#94A3B8">live routes</text>
+  <text x="40" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="2" fill="#42B883">SELECTED REPOS</text>
+  <text x="40" y="400" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">vue-jalali-datepicker</text>
+  <text x="40" y="436" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">drug-store-update</text>
+  <text x="40" y="472" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">dev-aria-next-ide</text>
+  <text x="40" y="508" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">meetUp</text>
+  <text x="40" y="544" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">marvel</text>
+  <text x="40" y="586" font-family="Cascadia Mono, Consolas, monospace" font-size="12" fill="#42B883">&gt; git clone …</text>
+</svg>

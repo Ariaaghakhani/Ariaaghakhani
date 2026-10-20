@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="100%" height="120" fill="none" role="img" aria-label="Neon divider">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#42B883"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 60 H420 L480 20 H720 L780 60 H1200" stroke="#1C2541" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M0 60 H420 L480 20 H720 L780 60 H1200" stroke="url(#g)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="180 1600">
+    <animate attributeName="stroke-dashoffset" values="1780;0" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <rect x="560" y="46" width="80" height="28" rx="14" fill="#0B1020" stroke="#2A3558"/>
+  <circle cx="585" cy="60" r="5" fill="#38BDF8"/>
+  <circle cx="600" cy="60" r="5" fill="#42B883"/>
+  <circle cx="615" cy="60" r="5" fill="#A78BFA"/>
+</svg>

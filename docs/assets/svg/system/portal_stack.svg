@@ -1,0 +1,17 @@
+<svg width="760" height="220" viewBox="0 0 760 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Core Technologies">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="760" y2="220" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#0B1020"/><stop offset="100%" stop-color="#111A33"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/><stop offset="50%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="760" height="220" rx="22" fill="url(#bg)"/>
+  <rect x="10" y="10" width="740" height="200" rx="16" fill="none" stroke="url(#edge)" stroke-width="2"/>
+  <circle cx="58" cy="58" r="16" fill="#38BDF8" filter="url(#glow)"/>
+  <text x="92" y="48" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="2.5" fill="#38BDF8">FRONT-END TOOLBOX</text>
+  <text x="92" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="900" fill="#F8FAFC">Core Technologies</text>
+  <text x="48" y="128" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">Vue 3, Nuxt, TypeScript, Pinia, Tailwind CSS,</text>
+  <text x="48" y="154" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">Nuxt UI, PrimeVue, and React / Next.js.</text>
+  <text x="48" y="186" font-family="Cascadia Mono, Consolas, monospace" font-size="12" font-weight="700" fill="#42B883">&gt; npm run open</text>
+</svg>

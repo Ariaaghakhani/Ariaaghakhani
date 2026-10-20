@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 70" width="100%" height="70" fill="none" role="img" aria-label="Circuit pulse divider">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#42B883"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M40 35 H280 L320 15 H520 L560 35 H640 L680 55 H880 L920 35 H1160" stroke="#1C2541" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 35 H280 L320 15 H520 L560 35 H640 L680 55 H880 L920 35 H1160" stroke="url(#g)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="120 900">
+    <animate attributeName="stroke-dashoffset" values="1020;0" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="560" cy="35" r="5" fill="#42B883"/>
+  <circle cx="640" cy="35" r="5" fill="#A78BFA"/>
+</svg>
